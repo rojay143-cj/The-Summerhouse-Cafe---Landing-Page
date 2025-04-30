@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>The Summerhouse Cafe</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/Logo.png" rel="icon">
+  <link href="assets/img/Logo.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center fixed-top topbar-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-center justify-content-lg-start">
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+      <div class="logo me-auto">
+        <a href="index.html"><img src="assets/img/Logo.png" alt="" class="img-fluid"></a>
+      </div>
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#menu">Menu</a></li>
+          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#about">About Us</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" data-bs-interval="3000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide 1 -->
+          <div class="carousel-item active" style="background-image: url(assets/img/slide/gallery1.png);">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">The <span>Summerhouse</span> Cafe</h2>
+                <p class="animate__animated animate__fadeInUp">Immerse yourself in the ultimate summer retreat at The Summerhouse Cafe. Discover a haven of flavors where every dish is a journey and every moment is a memory. Join us in the heart of summer bliss, where good food meets great vibes.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 2 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/gallery2.jpg); background-position: center;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Every Meal is a Celebration</h2>
+                <p class="animate__animated animate__fadeInUp">Elevate your dining experience at The Summerhouse Soirée. Join us for unforgettable moments filled with live music, themed events, and a culinary journey that transcends the ordinary. At The Summerhouse, every meal is not just a feast; it's a celebration of life.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Slide 3 -->
+          <div class="carousel-item" style="background-image: url(assets/img/slide/gallery3.jpg); background-position: center;">
+            <div class="carousel-container">
+              <div class="carousel-content">
+                <h2 class="animate__animated animate__fadeInDown">Unwind, Connect, and Create Memories Together</h2>
+                <p class="animate__animated animate__fadeInUp">At The Summerhouse Cafe, we believe in the magic that happens when people come together. Step into a space where laughter echoes, stories unfold, and connections are made. Whether it's a casual catch-up, a family feast, or a gathering of friends, our cafe is your haven for creating lasting memories.</p>
+                <div>
+                  <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Our Menu</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= Menu Section ======= -->
+    <section id="menu" class="menu">
+      <div class="container">
+        <div class="section-title">
+          <h2>Check out our tasty <span>Menu</span></h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="menu-flters">
+              <li data-filter="*" class="filter-active">Show All</li>
+              <li data-filter=".filter-allDaybreakfast">All-Day-Breakfast</li>
+              <li data-filter=".filter-houseSpecials">House Specials</li>
+              <li data-filter=".filter-pasta">Pasta</li>
+              <li data-filter=".filter-appetizer">Appetizer</li>
+              <li data-filter=".filter-salads">Healthy Salads</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row menu-container">
+          <!-- All Day breakfast -->
+          <div class="col-lg-6 menu-item filter-allDaybreakfast">
+            <div class="menu-content">
+              <a href="#">Cornsilog</a><span>₱115</span>
+            </div>
+            <div class="menu-ingredients">
+              A Filipino breakfast dish which is mixed with corned beef, garlic rice, sunny side up egg and sliced of cucumber.
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-allDaybreakfast">
+            <div class="menu-content">
+              <a href="#">Tapsilog</a><span>₱110</span>
+            </div>
+            <div class="menu-ingredients">
+              Sweet-salty peppery beef, crunchy garlic rice, and a runny fried egg make this Filipino breakfast perfect for any meal of the day.
+            </div>
+          </div>
+          <div class="col-lg-6 menu-item filter-allDaybreakfast">
+            <div class="menu-content">
+              <a href="#">Tocilog</a><span>₱85</span>
+            </div>
+            <div class="menu-ingredients">
+              A delightful ensemble of savory tocino, garlic-fried rice, and perfectly fried sunny-side-up eggs.
+            </div>
+          </div>
+          <!-- House Specials -->
+          <div class="col-lg-6 menu-item filter-houseSpecials">
+            <div class="menu-content">
+              <a href="#">Pork Sinuso</a><span>₱135</span>
+            </div>
+            <div class="menu-ingredients">
+              Succulent pork belly slow-cooked to perfection in a rich and flavorful blend of spices.
+            </div>
+          </div>
+
+          <div class="col-lg-6 menu-item filter-houseSpecials">
+            <div class="menu-content">
+              <a href="#">Teriyaki Chicken</a><span>₱145</span>
+            </div>
+            <div class="menu-ingredients">
+              Tender grilled chicken glazed in a luscious teriyaki sauce.
+            </div>
+          </div>
+          <!-- Pasta -->
+          <div class="col-lg-6 menu-item filter-pasta">
+            <div class="menu-content">
+              <a href="#">Carbonara</a><span>₱135</span>
+            </div>
+            <div class="menu-ingredients">
+              Al dente spaghetti enveloped in a rich, velvety carbonara sauce.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pasta">
+            <div class="menu-content">
+              <a href="#">Filipino Style Spaghetti</a><span>₱115</span>
+            </div>
+            <div class="menu-ingredients">
+              Filipino-style spaghetti, where sweet-style sauce, ground meat, and sliced hotdogs.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-pasta">
+            <div class="menu-content">
+              <a href="#">Tuna Puttanesca</a><span>₱135</span>
+            </div>
+            <div class="menu-ingredients">
+              Al dente spaghetti tossed in a robust tomato-based sauce, capers, olives, garlic, and tuna.</div>
+          </div>
+          <!-- Appetizer -->
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Lumpia 5 pcs</a><span>₱75</span>
+            </div>
+            <div class="menu-ingredients">
+              A Filipino favorite featuring thin spring rolls filled with a delectable mixture of seasoned ground meat and vegetables, served with a side of flavorful dipping sauce.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Dynamite 8 pcs</a><span>₱85</span>
+            </div>
+            <div class="menu-ingredients">
+              A mouthwatering Filipino treat of green chili peppers stuffed with flavorful cheese, wrapped in crispy lumpia wrapper, and fried to perfection for an explosive burst of flavor.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">French Fries Plain 
+                45 gms</a><span>₱45</span>
+            </div>
+            <div class="menu-ingredients">
+              Golden perfection in every bite—our French fries are expertly crafted, crispy on the outside, and tender on the inside, making for an irresistible snack or the perfect side to any dish.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Cheesy French Fries 135 gms</a><span>₱175</span>
+            </div>
+            <div class="menu-ingredients">
+              Perfectly golden fries generously smothered in a blanket of melted cheese for a gooey, savory delight.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Chimichanga</a><span>₱115</span>
+            </div>
+            <div class="menu-ingredients">
+              A tantalizing blend of seasoned meat, beans, and cheese, all wrapped in a crispy tortilla, fried to perfection, and served with a side of fresh salsa for a flavorful Mexican culinary experience.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Chicken Fajita</a><span>₱135</span>
+            </div>
+            <div class="menu-ingredients">
+              Seasoned and grilled chicken strips, vibrant bell peppers, and onions, all served with warm tortillas.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-appetizer">
+            <div class="menu-content">
+              <a href="#">Homemade Nachos</a><span>₱175</span>
+            </div>
+            <div class="menu-ingredients">
+              Crispy tortilla chips generously topped with melted cheese, savory ground meat, fresh salsa, and veggies.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Caesar's Salad</a><span>₱125</span>
+            </div>
+            <div class="menu-ingredients">
+              A crisp medley of fresh romaine lettuce, parmesan cheese, croutons, and succulent grilled chicken, all tossed in our signature Caesar dressing.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Crab and Mango Salad</a><span>₱125</span>
+            </div>
+            <div class="menu-ingredients">
+              A refreshing fusion of succulent crab meat, sweet mango slices, crisp vegetables, and a zesty dressing.</div>
+          </div>
+          <div class="col-lg-6 menu-item filter-salads">
+            <div class="menu-content">
+              <a href="#">Waldorf Salad</a><span>₱135</span>
+            </div>
+            <div class="menu-ingredients">
+              A harmonious blend of crisp apples, juicy grapes, crunchy walnuts, and celery, all delicately coated in a creamy dressing.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Menu Section -->
+
+    <!-- ======= Services Offered ======= -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-title">
+          <h2>Our <span>Services</span> for you.</h2>
+          <p>At The Summerhouse Cafe & Restobar, we aim to offer a diverse range of services to cater to different preferences and occasions. From dining experiences to creative workshops and event hosting, our goal is to provide a memorable and dynamic destination for our guests.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="box">
+              <span>01</span>
+              <h4>Dine In or  Dine Out, Day to Night:</h4>
+              <p><strong>Afternoon Retreat: </strong>Enjoy a leisurely lunch or afternoon tea in our welcoming and comfortable atmosphere. Whether you're catching up with friends or having a business meeting, we offer a diverse menu to suit all tastes.</p><br>
+              <p><strong>Nighttime Revelry: </strong>As the sun sets, The Summerhouse transforms into a vibrant restobar. Indulge in a curated dinner menu and crafted cocktails while soaking in the lively atmosphere. Our venue is the perfect setting for a night out with friends or a special celebration.</p><br>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box">
+              <span>02</span>
+              <h4>Rent the Place</h4>
+              <p>Host your private events, celebrations, and gatherings in our versatile space. The Summerhouse Cafe & Restobar is available for rent, offering a unique and stylish setting for birthdays, anniversaries, corporate events, and more. Our team is dedicated to ensuring your event is seamless and memorable.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box">
+              <span>03</span>
+              <h4>Painting Workshops</h4>
+              <p><strong>Art and Creativity: </strong>Unleash your artistic side with our painting workshops. Join us for a creative and relaxing experience where you can express yourself through art. Whether you're a beginner or an experienced artist, our workshops are designed to inspire and bring out your inner creativity.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box">
+              <span>04</span>
+              <h4>Additional Services</h4>
+              <p><strong>Dynamic Performances: </strong>Immerse yourself in the vibrant energy of live entertainment. Enjoy acoustic sets, live bands, and DJ performances that complement the lively atmosphere of our restobar. Check our event calendar for upcoming performances.</p><br>
+              <p><strong>Community Engagement: </strong>Be part of our community engagement initiatives. Experience themed nights that bring people together, and stay tuned for collaborations with local artists and businesses. The Summerhouse Cafe & Restobar is not just a venue; it's a space where connections are forged.</p><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services Offered -->
+
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+      <div class="container-fluid">
+        <div class="section-title">
+          <h2>Some photos from <span>Our Restaurant</span></h2>
+          <p>Step into The Summerhouse Cafe & Restobar through the lens of captivating moments. Our photo gallery captures the essence of joy, shared laughter, and the vibrant energy that fills our space. Explore the visual journey of The Summerhouse, where every photo is a glimpse into the rich tapestry of experiences woven within our walls.</p>
+        </div>
+        <div class="row g-0">
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/SummerhouseGallery/p1.jpg" class="gallery-lightbox">
+                <img src="assets/img/SummerhouseGallery/p1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/SummerhouseGallery/p2.jpg" class="gallery-lightbox">
+                <img src="assets/img/SummerhouseGallery/p2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/SummerhouseGallery/p3.jpg" class="gallery-lightbox">
+                <img src="assets/img/SummerhouseGallery/p3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/SummerhouseGallery/p4.jpg" class="gallery-lightbox">
+                <img src="assets/img/SummerhouseGallery/p4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/SummerhouseGallery/p5.jpg" class="gallery-lightbox">
+                <img src="assets/img/SummerhouseGallery/p5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/SummerhouseGallery/p6.jpg" class="gallery-lightbox">
+                <img src="assets/img/SummerhouseGallery/p6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/SummerhouseGallery/p7.jpg" class="gallery-lightbox">
+                <img src="assets/img/SummerhouseGallery/p7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/SummerhouseGallery/p8.jpg" class="gallery-lightbox">
+                <img src="assets/img/SummerhouseGallery/p8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= About Section ======= -->
+    <div id="about" class="about">
+      <section class="bg-black bg-opacity-75">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-10 d-flex flex-column">
+              <div class="content">
+                <h3><strong>The <span>Summerhouse</span> Cafe</strong></h3>
+                <p>
+                  <strong>Location:</strong> 2F Gloriana Bella Building, South Poblacion, Valencia, Negros Oriental.
+                </p>
+                <p class="fst-italic">
+                  In 2008, our culinary journey began, giving rise to The Summerhouse Cafe & Restobar—a dynamic establishment at the intersection of gastronomy and vibrant nightlife. From our roots to the heartbeat of our owner's family, our venue holds a special place, once owned by our grandmother and now transformed into a multifaceted space where culinary excellence meets spirited revelry.
+                </p>
+                <p>
+                  The Summerhouse Cafe & Restobar is a celebration of family, tradition, and the evolution of taste. What started as a restaurant has blossomed into a haven for those seeking both delectable dining experiences and vibrant nightlife escapades.
+                </p>
+                <p>
+                  Beyond culinary delights and crafted cocktails, The Summerhouse Cafe & Restobar offers breathtaking views of the plaza and its surroundings. It's a backdrop that has seen countless gatherings, celebrations, and the forging of unforgettable connections. From the captivating vista to the inviting interiors, our venue is an invitation to embrace the convergence of past, present, and the possibilities of the future.              </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- End About Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-title">
+          <h2><span>Contact</span> Us</h2>
+          <p>Questions or reservations? Reach out. We're here to assist you!</p>
+        </div>
+      </div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3937.593807207082!2d123.24223567581319!3d9.28053758499921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33ab6781efe165eb%3A0x8016aad02ad83de3!2sThe%20SUMMERHOUSE%20Cafe!5e0!3m2!1sen!2sph!4v1702474153298!5m2!1sen!2sph" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <div class="info-wrapper container">
+        <div class="info-wrap">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 info">
+              <i class="bi bi-geo-alt"></i>
+              <h4>Location:</h4>
+              <p>South Poblacion (infront of the park's south entrance).<br><br><strong>Valencia City, 6215,. Negros Oriental, Philippines</strong></p>
+            </div>
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-clock"></i>
+              <h4>Open Hours:</h4>
+              <p>Opens Daily:<br>02:00pm to 10:00pm</p><br>
+              <p><strong>EXCEPT ON MONDAYS</strong></p>
+            </div>
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-envelope"></i>
+              <h4>Email:</h4>
+              <p>gerabellerae2523@gmail.com</p>
+            </div>
+            <div class="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i class="bi bi-phone"></i>
+              <h4>Call:</h4>
+              <p>+63 929 099 5773<br>+63 906 288 0939</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>The Summerhouse Cafe</h3>
+      <p class="mb-3">Savor the Seasons, Celebrate Life: Your Oasis at Summerhouse Cafe.</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/profile.php?id=100086005815983" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com/the_summerhouse_cafe/" class="instagram"><i class="bx bxl-instagram"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; <strong>The Summerhouse Cafe - 2023</strong>
+      </div>
+      <div class="credits">
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
